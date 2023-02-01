@@ -1,0 +1,184 @@
+body{
+    margin: 0;
+    background-color:pink;
+    border:solid;
+    border-color:lightblue;
+    border-width: 10px;
+}
+
+hr{
+    color:lightblue;
+    border:solid;
+    border-width: 1px;
+}
+
+div {
+    font: "Montserrat";
+}
+
+a {
+    color:black;
+    text-decoration: none;
+}
+
+a:link {
+    color:black;
+    text-decoration:none;
+}
+
+a:visited{
+    color:darkorchid;
+}
+
+a:hover{
+    color:red;
+}
+
+div > h1{
+    font-family: "Aboreto", serif;
+    font-size: xx-large;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    color:darkgray;
+    font-size: xx-large;
+}
+
+div > h2{
+    font-family: "Aboreto", serif;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    font-size:x-large;
+    color:darkolivegreen;
+}
+
+div > h3{
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    font-family: "Montserrat", serif;
+}
+
+div * {
+    font-family: "Montserrat", serif;
+}
+
+.button {
+    font-family: "Montserrat", serif;
+    background-color: lightgrey;
+    border:solid;
+    border-color: black;
+    padding: 5px;
+}
+
+.intro{
+    background-color: pink;
+    padding:10px;
+    padding-inline: 20px;
+}
+.skills{
+    background-color: pink;
+    padding:10px;
+    padding-inline: 20px;
+}
+
+h2.skills {
+    margin:auto;
+    border: 50%;
+}
+
+.contact{
+    background-color: pink;
+    padding:10px;
+    padding-inline: 20px;
+    align-items: center;
+}
+
+.footer{
+    background-color: pink;
+    padding:10px;
+    padding-inline:20px;
+}
+
+.row {
+    height: 100px;
+    width:50%;
+    float:none;
+    margin: 100px auto;
+}
+
+.column {
+    display:inline-block;
+}
+
+.left {
+    float:left;
+    width:35%;
+    height:100px;
+}
+
+.right{
+    height:100px;
+    width:65%;
+}
+
+div.card {
+    position: relative;
+    transform:translate(130%);
+    margin-bottom: 20px;
+    margin-top:20px;
+    padding:10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width:25%;
+    border:5px solid lightskyblue;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#submission {
+    align-self: center;
+}
+
+#me {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
+}
+
+#ugaLogo {
+    width:75px;
+    border:0px;
+    padding:0px;
+}
+
+#coffee {
+    display: block;
+    position:absolute;
+    top:10px;
+    height:10%;
+    right:30px;
+    left:890px;
+}
+
+#tree{
+    display:block;
+    position:absolute;
+    height:40px;
+    height:10%;
+    top:30px;
+    left:400px;
+}
+
+#mountain {
+    width:75px;
+    border:0px;
+    padding:0px;
+}
+
+#code {
+    width:75px;
+    border:0px;
+    padding:0px;
+}
